@@ -50,7 +50,8 @@ header > p > a:hover {
 main p {
     font-family: var(--fonte02);
     font-size: clamp(1em, 3vw, 3em);
-    width: 500px;
+    max-width: 500px;
+    min-width: 250px;
     margin-top: 60px;
     margin-bottom: 60px;
     padding-left: 30px;
