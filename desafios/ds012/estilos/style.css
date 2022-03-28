@@ -51,7 +51,6 @@ main p {
     font-family: var(--fonte02);
     font-size: clamp(1em, 3vw, 3em);
     max-width: 500px;
-    min-width: 250px;
     margin-top: 60px;
     margin-bottom: 60px;
     padding-left: 30px;
@@ -66,6 +65,7 @@ main p {
 }
 
 #fundo01 > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.479);
     text-shadow: 1px 1px 1px black;
     color: white;
@@ -83,6 +83,7 @@ main p {
 }
 
 #fundo02 > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.479);
     text-shadow: 1px 1px 1px black;
     color: white;
